@@ -40,7 +40,7 @@ int main(int argc, char **argv)
 
 	struct can_filter rfilter[1];
 
-	rfilter[0].can_id   = 0x550;
+	rfilter[0].can_id   = 0x8123;
 	rfilter[0].can_mask = 0xFF0;
 	//rfilter[1].can_id   = 0x200;
 	//rfilter[1].can_mask = 0x700;
